@@ -4,7 +4,7 @@ Cosmo turns the clothing screenshots you already save into a picture of your sty
 
 ## Try it
 
-**Hosted demo:** link to be added after deployment.
+**Hosted demo:** https://cosmo-style.streamlit.app/
 
 Click **Try the sample set** to see results on 20 outfit images without uploading anything. The hosted demo runs on a small free server: the sample set is instant, while your own ZIP takes several seconds per image and is capped at 60 images there. For larger sets, run it locally.
 
