@@ -1,0 +1,18 @@
+# Versions are pinned to the ones this project was tested with.
+# On Linux (the hosted demo) install the CPU-only build of PyTorch: the
+# default Linux build bundles several GB of GPU libraries the host cannot use.
+torch @ https://download.pytorch.org/whl/cpu/torch-2.15.0%2Bcpu-cp311-cp311-manylinux_2_28_x86_64.whl ; sys_platform == "linux" and platform_machine == "x86_64" and python_version == "3.11"
+torch==2.15.0 ; sys_platform != "linux" or platform_machine != "x86_64" or python_version != "3.11"
+open_clip_torch==4.2.2
+transformers==5.23.0
+sentencepiece==0.2.3
+protobuf==7.36.2
+pillow==13.0.0
+pillow-heif==1.8.1
+imagehash==4.3.2
+scikit-learn==1.9.1
+numpy==2.4.6
+pandas==3.1.1
+plotly==7.1.0
+streamlit==1.67.0
+pytest==9.2.0

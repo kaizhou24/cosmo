@@ -1,0 +1,15 @@
+# Private data: never commit
+data/
+.cache/
+labels.csv
+eval_results.md
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+eval_crops/
+
+# Internal project brief and working notes
+CLAUDE.md
